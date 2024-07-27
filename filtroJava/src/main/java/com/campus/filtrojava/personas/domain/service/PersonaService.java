@@ -13,5 +13,8 @@ import com.campus.filtrojava.personas.domain.entity.Persona;
  * @author camper
  */
 public interface PersonaService {
-    
+    void crearPersona(Persona persona);
+    Persona findUserById(Long id);
+    //void updateUser(User user);
+    //void removeUser(Long id);
 }

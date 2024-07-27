@@ -1,4 +1,4 @@
-# Definiendo la creación y uso de la base de datos
+	# Definiendo la creación y uso de la base de datos
 DROP DATABASE IF EXISTS sgpzf;
 CREATE DATABASE IF NOT EXISTS sgpzf;
 USE sgpzf;

@@ -14,6 +14,7 @@ import java.util.ArrayList;
  */
 public class Persona {
     // Definiendo los atributos necesarios
+    private Long id;
     private String nombre;
     private String apellido;
     private String ciudad;
@@ -36,6 +37,15 @@ public class Persona {
         this.edad = (int) lstInfoUser.get(4);
         this.email = (String) lstInfoUser.get(5);
         this.genero = (String) lstInfoUser.get(6);
+    }
+    
+    
+    // Definiendo los getter y setter de "id"
+    public Long getId() {
+        return id;
+    }
+    public void setId(Long id) {
+        this.id = id;
     }
     
     

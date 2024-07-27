@@ -14,5 +14,13 @@ import com.campus.filtrojava.personas.domain.service.PersonaService;
  * @author camper
  */
 public class PersonaUseCase {
-    
+    private final PersonaService personaService;
+
+    public PersonaUseCase(PersonaService personaService) {
+        this.personaService = personaService;
+    }
+
+    public void execute(Persona persona) {
+        personaService.crearPersona(persona);
+    }
 }

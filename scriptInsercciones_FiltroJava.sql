@@ -158,7 +158,7 @@ INSERT INTO sgpzf.city (id, name, idregion) VALUES (65, 'Zipaquirá', 34);
 INSERT INTO sgpzf.city (id, name, idregion) VALUES (66, 'Facatativá', 34);
 INSERT INTO sgpzf.city (id, name, idregion) VALUES (67, 'Inírida', 35);
 INSERT INTO sgpzf.city (id, name, idregion) VALUES (68, 'San José del Guaviare',
-36);
+36);                
 INSERT INTO sgpzf.city (id, name, idregion) VALUES (69, 'Calamar', 36);
 INSERT INTO sgpzf.city (id, name, idregion) VALUES (70, 'Neiva', 37);
 INSERT INTO sgpzf.city (id, name, idregion) VALUES (71, 'Garzón', 37);
@@ -176,3 +176,11 @@ INSERT INTO sgpzf.city (id, name, idregion) VALUES (81, 'Ciénaga', 39);
 INSERT INTO sgpzf.city (id, name, idregion) VALUES (82, 'Fundación', 39);
 INSERT INTO sgpzf.city (id, name, idregion) VALUES (83, 'El Banco', 39);
 INSERT INTO sgpzf.city (id, name, idregion) VALUES (84, 'Plato', 39);
+
+
+
+select * from city;
+select * from gender;
+select * from persons;
+use sgpzf;
+describe persons;
